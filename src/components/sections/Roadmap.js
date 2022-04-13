@@ -1,8 +1,6 @@
 import React from 'react';
-import classNames from 'classnames';
 import {Stack} from '@mui/material';
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
-import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Logo from '../layout/partials/Logo';
 

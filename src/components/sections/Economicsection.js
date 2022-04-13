@@ -1,8 +1,6 @@
 import React from 'react';
-import classNames from 'classnames';
 import {Grid} from '@mui/material';
 import SectionHeader from './partials/SectionHeader';
-import Image from '../elements/Image';
 import AmountCard from '../elements/AmountCard'
 const Economicsection = (props) => {
 

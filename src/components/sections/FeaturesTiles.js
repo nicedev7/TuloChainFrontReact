@@ -3,7 +3,6 @@ import classNames from 'classnames';
 import {Grid} from '@mui/material';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import Image from '../elements/Image';
 import TileCard from '../elements/TileCard'
 const propTypes = {
   ...SectionTilesProps.types
