@@ -6,7 +6,7 @@ const AmountCard = (props) => {
   return (
     <div className="amount-card reveal-from-bottom">
       {
-        size=='small'?
+        size==='small'?
         <h4 className="mt-0 mb-8 base-color">
           {value}
         </h4>:
@@ -14,7 +14,7 @@ const AmountCard = (props) => {
           {value}
         </h3>
       }
-      <div className={`m-0 ${size=='small'?'text-xs':'text-sm'} heading-color`}>
+      <div className={`m-0 ${size==='small'?'text-xs':'text-sm'} heading-color`}>
         {description}
       </div>
     </div>

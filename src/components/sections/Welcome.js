@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classNames from 'classnames';
 import Rosa from "react-on-scroll-animation"
 import "react-on-scroll-animation/build/index.css";
