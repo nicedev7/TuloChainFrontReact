@@ -1,0 +1,20 @@
+.features-tiles-item-image {
+	font-size: 32px;
+	padding: 5px;
+	background-color: #E6E8EC;
+	border-radius: 50%;
+	display: inline-block;
+	transition-property: transform;
+	transition-duration: .3s;
+
+	svg {
+		width: 1em;
+		height: 1em;
+		position: relative;
+		display: block;
+	}
+}
+.features-tiles-item-image:hover {
+	background-color: color(base);
+	transform: scale(1.1);
+}

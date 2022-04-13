@@ -1,0 +1,143 @@
+.hero {
+
+	.section-inner {
+		padding-top: $hero--padding-t__mobile;
+		padding-bottom: $hero--padding-b__mobile;
+	}
+}
+
+.hero-inner {
+
+	// Affects only hero full
+	> .hero-content + .hero-figure,
+	> .hero-figure + .hero-content {
+		margin-top: $hero--inner-padding-v_mobile;
+	}
+
+	> .hero-figure {
+
+		> a {
+			display: inline-flex;
+			// prevents stretching
+			align-items: center;
+			vertical-align: top;
+		}
+	}
+
+	> .large-title {
+		font-size: 52px;
+	}
+}
+
+.presale-link {
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    text-decoration: underline;
+	word-spacing: -5px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+
+	> a {
+		color: inherit;
+		animation: wobble-move 5s ease-in-out infinite;
+		transform-origin: center center;
+		transition: padding .3s, bottom .3s;
+	}
+}
+
+.logo-icon-rotate {
+	> img {
+		display: inline-block;
+		// width: 200px;
+		// height: 200px;
+		// padding: 40px;
+		box-shadow: inset -5px -15px rgba(0, 0, 0, .06);
+		-moz-border-radius: 100px;
+		-webkit-border-radius: 100px;
+		border-radius: 50%;
+		animation: wobble-rotate 5s ease-in-out infinite;
+		transform-origin: center center;
+		transition: padding .3s, bottom .3s;
+		text-align: center;
+	}
+  }
+  
+  @keyframes wobble-rotate {
+	33% {
+	  transform: rotate(5deg);
+	}
+	66% {
+	  transform: rotate(-5deg);
+	}
+  }
+
+  @keyframes wobble-move{
+	33% {
+		transform: translate(10px, 10px);
+	}
+	66% {
+		transform: translate(-10px, -10px);
+	}
+  }
+
+@include media( '<=medium' ) {
+
+	.hero {
+
+		.split-wrap {
+
+			.split-item {
+
+				.split-item-content {
+					margin-bottom: $hero--inner-padding-v_mobile;
+				}
+			}
+
+			&.invert-mobile {
+
+				.split-item {
+
+					.split-item-image {
+						margin-bottom: $hero--inner-padding-v_mobile;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include media( '>medium' ) {
+
+	.hero {
+
+		.section-inner {
+			padding-top: $hero--padding-t__desktop;
+			// padding-bottom: $hero--padding-b__desktop;
+		}
+	}
+
+	.hero-inner {
+		margin-top: 150px;
+		padding-bottom: 0px;
+		// Affects only hero full
+		> .hero-content + .hero-figure,
+		> .hero-figure + .hero-content {
+			flex-grow: 1;
+			margin-top: $hero--inner-padding-v_desktop;
+		}
+		
+		.large-title {
+			font-size: 90px;
+		}
+
+		.logo-icon-rotate {
+			padding: 30;
+			align-items: center;
+			display: flex;
+		}
+	}
+}
