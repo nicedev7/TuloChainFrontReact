@@ -1,5 +1,4 @@
 import React from 'react';
-import Rosa from "react-on-scroll-animation"
 import classNames from 'classnames';
 import {Grid} from '@mui/material';
 import { SectionTilesProps } from '../../utils/SectionProps';
