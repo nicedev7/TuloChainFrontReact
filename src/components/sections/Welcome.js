@@ -67,7 +67,7 @@ const Welcome = ({
                 </h1>
               </Rosa>
               <Rosa {...commonROSA} animation='fade-up'>
-                <h6 style={{fontWeight: 'normal', fontSize: 16}}>
+                <h6 className="animated fadeInUp" style={{fontWeight: 'normal', fontSize: 16}}>
                   The 1st Defi Token that tracks its token price with in-built Smart Contract Price Support Features
                 </h6>
               </Rosa>

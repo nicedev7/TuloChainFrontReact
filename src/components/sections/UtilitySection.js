@@ -54,10 +54,10 @@ const UtilitySection = (props) => {
       <div className="container">
         <div className="section-inner">
           <SectionHeader data={sectionHeader} className="center-content" />
-          <Grid container spacing={4}>
+          <Grid container spacing={4} className="reveal-from-bottom animated bounceInUp">
             <Grid item xs={12} md={6}>
               <div className="center-content group-box">
-                <h3>Buy Trading Fees</h3>
+                <h3 className='reveal-from-bottom animated rotateInUpLeft'>Buy Trading Fees</h3>
                 <Grid container>
                   <Grid item xs={12} md={6}>
                     <AmountCard size='small' object={buyFeeData[0]}/>
@@ -78,7 +78,7 @@ const UtilitySection = (props) => {
             </Grid>
             <Grid item xs={12} md={6}>
               <div className="center-content group-box">
-                <h3>Sell Trading Fees</h3>
+                <h3 className='reveal-from-bottom animated rotateInUpLeft'>Sell Trading Fees</h3>
                 <Grid container>
                   <Grid item xs={12} md={6}>
                     <AmountCard size='small' object={sellFeeData[0]}/>

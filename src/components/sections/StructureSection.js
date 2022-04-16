@@ -30,14 +30,16 @@ const StructureSection = (props) => {
     >
       <div className="container">
         <div className="section-inner">
-          <SectionHeader data={sectionHeader} className="center-content" />
-          <Grid container spacing={2}>
+          <SectionHeader data={sectionHeader} className="reveal-none center-content animated rotateInUpLeft" />
+          <Grid container spacing={2} className="reveal-none center-content animated rotateInUpRight" sx={{pb: 2}}>
             <Grid item xs={12} md={6}>
               <TileCard object={tilesData[0]}/>
             </Grid>
             <Grid item xs={12} md={6}>
               <TileCard object={tilesData[1]}/>
             </Grid>
+          </Grid>
+          <Grid container spacing={2} className="reveal-none center-content animated rotateInUpRight">
             <Grid item xs={12} md={6}>
               <TileCard object={tilesData[2]}/>
             </Grid>

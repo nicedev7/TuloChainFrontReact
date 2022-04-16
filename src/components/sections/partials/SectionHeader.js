@@ -44,6 +44,7 @@ const SectionHeader = ({
               classNames(
                 'mt-0',
                 'section-title',
+                'reveal-from-bottom animated fadeInUp',
                 data.paragraph ? 'mb-16' : 'mb-0'
               )}>{data.title}</Component>
           }
@@ -52,7 +53,7 @@ const SectionHeader = ({
               <>
                 {
                   paragarphArr.map((para, _i)=>(
-                    <h5 key={_i} className={`${_i?'mt-4':'m-0'}m-0 paragraph`}>{para}</h5>
+                    <h5 key={_i} className={`${_i?'mt-4':'m-0'}m-0 paragraph reveal-from-bottom animated fadeInUp`}>{para}</h5>
                   ))
                 }
               </>

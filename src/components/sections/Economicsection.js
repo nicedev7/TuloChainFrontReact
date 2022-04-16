@@ -4,6 +4,8 @@ import SectionHeader from './partials/SectionHeader';
 import AmountCard from '../elements/AmountCard'
 const Economicsection = (props) => {
 
+  const commonClasses = "reveal-from-bottom animated"
+
   const sectionHeader = {
     title: 'Token Economics',
     paragraph: "Tulo Chain has a total of 1,000,000,000,000 tokens. 55% of the tokens will be allocated to presale and initial exchange liquidity. 10%private sale, 10% of the tokens will be allocated to the team, 5% of the tokens will be allocated to strategic advisors and 20% of the tokens will be retained for the ecosystem, this would be allocated towards evolving the utility of the TULO as well as project operations"
@@ -42,9 +44,9 @@ const Economicsection = (props) => {
     >
       <div className="container">
         <div className="section-inner">
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <SectionHeader data={sectionHeader} className={`${commonClasses} center-content fadeInUp`} />
           <div className="center-content">
-            <Grid container>
+            <Grid container className="reveal-from-bottom animated fadeInLeft">
               <Grid item xs={12} md={6}>
                 <AmountCard object={cardData[0]}/>
               </Grid>
@@ -52,7 +54,7 @@ const Economicsection = (props) => {
                 <AmountCard object={cardData[1]}/>
               </Grid>
             </Grid>
-            <Grid container sx={{mt: 2}}>
+            <Grid container className="reveal-from-bottom animated fadeInRight" sx={{mt: 2}}>
               <Grid item xs={12} md={3}>
                 <AmountCard object={cardData[2]}/>
               </Grid>

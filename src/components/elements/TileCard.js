@@ -3,7 +3,7 @@ import React from 'react';
 const TileCard = (props) => {
   const {title='', description} = props.object
   return (
-    <div className="tiles-item tiles-card reveal-from-bottom">
+    <div className="tiles-item tiles-card">
       <div className="tiles-item-inner">
         {
           title.length>0 && 

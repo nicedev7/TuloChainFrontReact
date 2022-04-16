@@ -1,4 +1,5 @@
 import React from 'react';
+import Rosa from "react-on-scroll-animation"
 import classNames from 'classnames';
 import {Grid} from '@mui/material';
 import { SectionTilesProps } from '../../utils/SectionProps';
@@ -43,6 +44,8 @@ const FeaturesTiles = ({
     pushLeft && 'push-left'
   );
 
+  const commonClasses = "reveal-from-bottom animated"
+
   const sectionHeader = {
     title: 'The TuloChain Token & Features',
     paragraph: "Tulo is a Finnish word meaning Income, the aim of the Tulo Chain token is to generate a continuous stream of income flow for Tulo token holders by instituting the following utilities and value add elements to the token. The Tulo token is built on the Binance Smart Chain (BEP20 Token Standard)\nTulochain is the first decentralised token with price support feature embedded in the smart contract, that supports the price stability of the token."
@@ -74,7 +77,7 @@ const FeaturesTiles = ({
       description: 'The Smart contract has been developed to track the token price movements, anytime the token price drops below 30% of its all-time high value, the smart contract will auto trigger a chain of buy backs and burn of TULO tokens. (See Whitepaper)'
     }
   ]
-
+  
   return (
     <section
       {...props}
@@ -82,9 +85,9 @@ const FeaturesTiles = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content animated rotateInUpLeft" />
+          <SectionHeader data={sectionHeader} className={`${commonClasses} center-content rotateInUpLeft`} />
           <div className={tilesClasses}>
-            <Grid container spacing={2}>
+            <Grid container spacing={2} className={`${commonClasses} rotateInUpRight`} sx={{pb: 2}}>
               <Grid item xs={12} md={4}>
                 <TileCard object={tilesData[0]}/>
               </Grid>
@@ -94,9 +97,13 @@ const FeaturesTiles = ({
               <Grid item xs={12} md={4}>
                 <TileCard object={tilesData[2]}/>
               </Grid>
+            </Grid>
+            <Grid container spacing={2} className={`${commonClasses} rotateInUpRight`} sx={{pb: 2}}>
               <Grid item xs={12} md={12}>
                 <TileCard object={tilesData[3]}/>
               </Grid>
+            </Grid>
+            <Grid container spacing={2} className={`${commonClasses} rotateInUpRight`}>
               <Grid item xs={12} md={6}>
                 <TileCard object={tilesData[4]}/>
               </Grid>

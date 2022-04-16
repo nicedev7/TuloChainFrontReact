@@ -47,7 +47,7 @@
     }
 }
 
-.pulse {
+.is-revealed.pulse {
     animation-name: pulse
 }
 
@@ -243,7 +243,7 @@
     }
 }
 
-.jello {
+.is-revealed.jello {
     animation-name: jello;
     transform-origin: center
 }
@@ -377,7 +377,7 @@
     }
 }
 
-.bounceInRight {
+.is-revealed.bounceInRight {
     animation-name: bounceInRight
 }
 
@@ -409,7 +409,7 @@
     }
 }
 
-.bounceInUp {
+.is-revealed.bounceInUp {
     animation-name: bounceInUp
 }
 
@@ -455,7 +455,7 @@
     }
 }
 
-.fadeInLeft {
+.is-revealed.fadeInLeft {
     animation-name: fadeInLeft
 }
 
@@ -471,7 +471,7 @@
     }
 }
 
-.fadeInRight {
+.is-revealed.fadeInRight {
     animation-name: fadeInRight
 }
 
@@ -487,7 +487,7 @@
     }
 }
 
-.fadeInUp {
+.is-revealed.fadeInUp {
     animation-name: fadeInUp
 }
 
@@ -532,7 +532,7 @@
     }
 }
 
-.rotateIn {
+.is-revealed.rotateIn {
     animation-name: rotateIn
 }
 
@@ -586,7 +586,7 @@
     }
 }
 
-.rotateInUpLeft {
+.is-revealed.rotateInUpLeft {
     animation-name: rotateInUpLeft
 }
 
@@ -604,7 +604,7 @@
     }
 }
 
-.rotateInUpRight {
+.is-revealed.rotateInUpRight {
     animation-name: rotateInUpRight
 }
 
