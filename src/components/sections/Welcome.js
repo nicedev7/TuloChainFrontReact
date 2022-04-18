@@ -63,7 +63,7 @@ const Welcome = ({
               </Rosa>
               <Rosa {...commonROSA} animation='fade-up-left'>
                 <h1 className="mt-0 mb-16 large-title animated lightSpeedIn" data-reveal-delay="200" style={{color: 'inherit'}}>
-                  TuloChain
+                  ERADEX
                 </h1>
               </Rosa>
               <Rosa {...commonROSA} animation='fade-up'>

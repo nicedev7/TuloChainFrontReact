@@ -46,18 +46,18 @@ const FeaturesTiles = ({
   const commonClasses = "reveal-from-bottom animated"
 
   const sectionHeader = {
-    title: 'The TuloChain Token & Features',
-    paragraph: "Tulo is a Finnish word meaning Income, the aim of the Tulo Chain token is to generate a continuous stream of income flow for Tulo token holders by instituting the following utilities and value add elements to the token. The Tulo token is built on the Binance Smart Chain (BEP20 Token Standard)\nTulochain is the first decentralised token with price support feature embedded in the smart contract, that supports the price stability of the token."
+    title: 'ABOUT ERADEX',
+    paragraph: "The concept of EraDex is one of it's kind with lots of potentials. Almost all the token suffers from the inevitable valuation bubble ,inflation which is then followed by the burst and the impending collapse of the price.\nThis is why we have seen the mass adoption of static rewards, also known as reflection, a separate concept that seeks to eliminate the troubles caused by farming rewards."
   };
 
   const tilesData = [
     {
       title: 'Automated Liquidity Pool',
-      description: 'The TULO token will provide a stable addition to the exchange liquidity pool, this would ensure that irrespective of the market activity the pool will be sufficiently enhanced to support the required stability.'
+      description: 'Era token will provide a stable addition to the exchange liquidity pool, this would ensure that irrespective of the market activity the pool will be sufficiently enhanced to support the required stability.The goal here is to prevent the larger dips when whales decide to sell their tokens later in the game, which keeps the price from fluctuating as much as if there was no automatic LP function.'
     },
     {
       title: 'Reflections for Token Holders',
-      description: 'TULO token holders will receive rewards in the native token for holding. The reflections in TULO token are deemed more valuable than most other token reflections because of the price support mechanism built into the TULO token smart contract. For every buy and sell transactions, 2% and 3% respectively will be distributed directly to the wallets holding $TULO.'
+      description: 'EraDex token holders will receive rewards in the $Cro for holding. For every buy and sell transactions, 2% and 3% respectively will be distributed directly to the wallets holding $ERA'
     },
     {
       title: 'TULO ‘DAO’ Investment',

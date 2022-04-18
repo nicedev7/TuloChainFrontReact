@@ -39,10 +39,11 @@ const Roadmap = (props) => {
                 >
                   <h4 className="base-color">Phase 2</h4>
                   <ul className="roadmap-ul">
-                    <li>Marketing & Growth of Tulo Chain Q2 2022</li>
-                    <li>Listing on CEX Q2/Q3 2022</li>
-                    <li>NFT Market Place Implementation – Q4 2022</li>
-                    <li>Partnership – Q3/Q4 2022</li>
+                    <li>Buyback and Burn</li>
+                    <li>Promotion campaign</li>
+                    <li>5M Market Cap</li>
+                    <li>Lbank listing</li>
+                    <li>Certik audit</li>
                   </ul>
                 </TimelineItem>
                 <TimelineItem
@@ -52,10 +53,24 @@ const Roadmap = (props) => {
                 >
                   <h4 className="base-color">Phase 3</h4>
                   <ul className="roadmap-ul">
-                    <li>Ethereum & Poly Chain Bridge – Q3 /Q4 2022</li>
-                    <li>Developing the TULO Investment DAO framework Q4 2022</li>
-                    <li>Driving the growth of Tulo Chain beyond 2022</li>
-                    <li>Developing additional features for the TULO token – 2023</li>
+                    <li>2,500 Holder</li>
+                    <li>$15M Stable Market Cap</li>
+                    <li>Game testing</li>
+                    <li>NFT Staking and swap Dapp</li>
+                  </ul>
+                </TimelineItem>
+                <TimelineItem
+                  dateComponent=''
+                  key="004"
+                  style={dotColor}
+                >
+                  <h4 className="base-color">Phase 4</h4>
+                  <ul className="roadmap-ul">
+                    <li>Partnerships with big influencers and companies</li>
+                    <li>Heavy marketing</li>
+                    <li>Game launch</li>
+                    <li>Audits</li>
+                    <li>TBA</li>
                   </ul>
                 </TimelineItem>
               </Timeline>
