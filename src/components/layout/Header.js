@@ -79,7 +79,7 @@ const Header = ({
     {name: "Home", href: '/'},
     {name: "Features", to: 'features'},
     {name: "Token Economics", to: 'economics'},
-    {name: "Tulo Chain Fees", to: 'chain'},
+    {name: "ERADEX Fees", to: 'chain'},
     {name: "Structure", to: 'structure'},
     {name: "Whitepaper", href: 'https://usercontent.one/wp/www.tulochain.com/wp-content/uploads/2022/03/Tulo-Chain-Whitepaper.pdf'},
     {name: "Roadmap", to: 'road'}

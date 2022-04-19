@@ -60,12 +60,12 @@ const FeaturesTiles = ({
       description: 'EraDex token holders will receive rewards in the $Cro for holding. For every buy and sell transactions, 2% and 3% respectively will be distributed directly to the wallets holding $ERA'
     },
     {
-      title: 'TULO ‘DAO’ Investment',
-      description: 'As part of our Phase 3 road map, TULO Chain will be implementing an investment DAO structure that allocates 1% transaction fees as an investment pool fund. The 1% fees will be taken from the current allocation to Marketing, Operations & Product Development category of fees. (See whitepaper for details)'
+      title: 'ERA ‘DAO’ Investment',
+      description: 'As part of our Phase 3 road map, ERADEX will be implementing an investment DAO structure that allocates 1% transaction fees as an investment pool fund. The 1% fees will be taken from the current allocation to Marketing, Operations & Product Development category of fees. (See whitepaper for details)'
     },
     {
       title: 'Automated Price Support Features',
-      description: 'Tulo Chain has implemented two key features in its smart contract that provides a tested and effective price support mechanism. The price support system, whilst not able to control market activity will provide a stabilizing input into the token price factor:'
+      description: 'ERADEX has implemented two key features in its smart contract that provides a tested and effective price support mechanism. The price support system, whilst not able to control market activity will provide a stabilizing input into the token price factor:'
     },
     {
       title: '1- Auto LP + Treasury Price Support',
@@ -73,7 +73,7 @@ const FeaturesTiles = ({
     },
     {
       title: '2- Buy Back Price Support',
-      description: 'The Smart contract has been developed to track the token price movements, anytime the token price drops below 30% of its all-time high value, the smart contract will auto trigger a chain of buy backs and burn of TULO tokens. (See Whitepaper)'
+      description: 'The Smart contract has been developed to track the token price movements, anytime the token price drops below 30% of its all-time high value, the smart contract will auto trigger a chain of buy backs and burn of ERA tokens. (See Whitepaper)'
     }
   ]
   

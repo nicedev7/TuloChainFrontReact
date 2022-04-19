@@ -5,8 +5,8 @@ import AmountCard from '../elements/AmountCard'
 const UtilitySection = (props) => {
 
   const sectionHeader = {
-    title: 'Utility of Tulo Chain Fees',
-    paragraph: "The trading fees for Tulo Chain has been implemented to provide a stable structure for price support, product development and the ecosystem management. The amount of fees for all buys is 13% and all sells is 16%"
+    title: 'Utility of ERADEX Fees',
+    paragraph: "The trading fees for ERADEX has been implemented to provide a stable structure for price support, product development and the ecosystem management. The amount of fees for all buys is 13% and all sells is 16%"
   };
 
   const buyFeeData = [

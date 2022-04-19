@@ -31,7 +31,7 @@ const Footer = ({
       className={classes}
     >
       <div className="footer-box">
-        <h6 className="text-xs base-color m-0">Copyright © 2022 TuloChain</h6>
+        <h6 className="text-xs base-color m-0">Copyright © 2022 ERADEX</h6>
       </div>
     </footer>
   );

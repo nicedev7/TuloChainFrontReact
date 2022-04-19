@@ -21,7 +21,7 @@ const Logo = ({
       <h1 className="m-0">
         <Link to="/">
           <Image
-            src='logo_tulo.png'
+            src='logo_era.png'
             alt="Open"
             width={280}
             style={{aspectRatio: 'auto 280 / 118'}} />

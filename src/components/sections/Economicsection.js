@@ -7,17 +7,17 @@ const Economicsection = (props) => {
   const commonClasses = "reveal-from-bottom animated"
 
   const sectionHeader = {
-    title: 'Token Economics',
-    paragraph: "Tulo Chain has a total of 1,000,000,000,000 tokens. 55% of the tokens will be allocated to presale and initial exchange liquidity. 10%private sale, 10% of the tokens will be allocated to the team, 5% of the tokens will be allocated to strategic advisors and 20% of the tokens will be retained for the ecosystem, this would be allocated towards evolving the utility of the TULO as well as project operations"
+    title: 'TOKENOMICS',
+    paragraph: "ERADEX has a total of 100,000,000 tokens. 55% of the tokens will be allocated to presale and initial exchange liquidity. 10%private sale, 10% of the tokens will be allocated to the team, 5% of the tokens will be allocated to strategic advisors and 20% of the tokens will be retained for the ecosystem, this would be allocated towards evolving the utility of the ERA as well as project operations"
   };
 
   const cardData = [
     {
-      value: '55%',
-      description: 'Presale and Initial Exchange Liquidity'
+      value: '5%',
+      description: 'Liquidity'
     },
     {
-      value: '1,000,000,000,000',
+      value: '100,000,000',
       description: 'Total Supply'
     },
     {
