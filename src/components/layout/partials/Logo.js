@@ -24,7 +24,7 @@ const Logo = ({
             src='logo_era.png'
             alt="Open"
             width={280}
-            style={{aspectRatio: 'auto 280 / 118'}} />
+            style={{aspectRatio: 'auto 280 / 118', filter: 'drop-shadow(0px 1px 2px white)'}} />
         </Link>
       </h1>
     </div>
